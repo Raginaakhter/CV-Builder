@@ -11,28 +11,28 @@
 
     <h1>CV Builder</h1>
 
-    <!-- STEP 1 -->
-    <div class="step active" >
+    <!-- STEP 1 : -->
+    <div class="step active" id="step1">
 
         <h2>Personal Information</h2>
 
         <label>Full Name</label>
-        <input type="text" >
+        <input type="text" id="fullName">
 
         <label>Location</label>
-        <input type="text" >
+        <input type="text" id="location">
 
         <label>Phone</label>
-        <input type="text">
+        <input type="text" id="phone">
 
         <label>Email</label>
-        <input type="email">
+        <input type="email" id="email">
 
-        <button >Save & Continue</button>
+        <button onclick="savePersonal()">Save & Continue</button>
 
     </div>
 
-    
+    <p id="message"></p>
 
 </div>
 
